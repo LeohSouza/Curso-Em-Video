@@ -1,0 +1,42 @@
+__ texto __ ou ** texto ** -> negrito
+*texto* -> italico
+~~texto~~ -> texto riscado
+
+# -> cria titulos, a quantidade de hashtag é o nivel do titulo
+# = h1
+## = h2
+
+--- ou *** -> linha
+
+lista numerada:
+Numero. = 1. - Lista
+3 espaço na frente 1. = sub item
+
+Lista não ordenada
+* texto
+
+Lista de tarefas
+- [ ] texto
+
+tabela:
+Num | Nome     | Materia | Nota
+----|----------|---------|-----
+1   | Leonardo | Matemática | 10
+2   | Maria    | Matemática | 5
+
+
+Comandos de linguagem:
+Comando de uma linha: `comando`
+Comando de mais linhas: ```Comando```
+
+imagem:
+ ![](caminho até a imagem)
+
+emoji
+:nomedoemoji
+para saber os nomes: github.com/ikatyang -> repositorios -> emoji
+
+marca pessoa
+
+reponder
+>

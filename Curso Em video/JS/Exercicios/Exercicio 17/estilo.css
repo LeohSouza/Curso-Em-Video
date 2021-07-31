@@ -1,0 +1,34 @@
+body
+{  
+    background: cadetblue;
+    font:normal 15pt arial;
+    color: white;
+    text-align: center;
+   
+}
+header
+{
+    font:normal 20pt arial;
+    margin: 10px;
+}
+
+section
+{
+    color:black;
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+    margin: auto;
+    padding: 10px;
+}
+
+footer
+{
+    font:normal 10pt arial;
+    margin: 10px;
+}
+
+select#flista{
+    width: 150px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--Titulo-->
+    <header>Analisador de Numeros</header>
+
+    <!--Corpo-->
+    <section>
+        <!--Entrada de dados-->
+        <div>
+            Numeros (1 a 100):
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br><br><select id="flista" name="flista" size="6"></select>   
+            <br> <input type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+        
+        <div id="res">
+
+        </div>
+
+        <!--Saida de dados-->
+
+    </section>
+
+    <!--Rodape-->
+    <footer>
+        &copy;CursoEmVideo
+    </footer>
+
+    <script src="ambi.js"></script>
+</body>
+</html>

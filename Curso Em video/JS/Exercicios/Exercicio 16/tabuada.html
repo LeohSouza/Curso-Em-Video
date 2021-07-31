@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!--Titulo-->
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <!--Interacao-->
+    <section>
+
+        <!--Entrada de dados-->
+        <div>
+            <p>
+                <!--Onde o numero será digitado-->
+                Numero:
+                <input type="number" name="numero" id="numero">
+
+                <!--Botao para ativar funçao tabuada-->
+                <input type="button" value="Tabuada" onclick="tabuada()">
+            </p>
+        </div>
+
+        <!--Saida de dados-->
+        <div id="res">
+            <p>
+                <select name="tabuada" id="tabuada" size="10">
+                    <option>
+                        Digite um numero acima
+                    </option>
+                </select>
+            </p>
+        </div>
+    </section>
+
+    <!--Rodapé-->
+    <footer>
+        <p>&copy;CursoEmVideo</p>
+    </footer>
+
+    <script src="interacao.js"></script>
+</body>
+</html>

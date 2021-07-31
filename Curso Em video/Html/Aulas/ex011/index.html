@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Midias em HTML5</title>
+    </head>
+    <body>
+
+        <h1>Imagem Dinâmica</h1>
+        <p>Tente abrir esse site em varios dipositivos diferentes ou simplesmente aumenta e diminua o tamanha do seu navegador</p>
+
+        <picture>
+            <source media="(max-width:400px)" srcset="github-p.png">
+            <source media="(max-width:700px )" srcset="github-m.png">
+            <source media="(max-width:1280px)" srcset="github-g.png">
+            <img src="github-gg.png">
+        </picture>
+
+
+        <audio preload="metadata" autoplay controls loop>
+            <source src="19th Floor - Bobby Richards.mp3" type="audio/mpeg">
+        </audio>
+        <!-- MP3 WAV OGG <- compativeis
+        WAV <- pesado -->
+
+        <h1>
+            Inserido video hospedado localmente
+        </h1>
+        <p>
+            Este video está hospedado no meu própio servidor.
+        </p>
+
+        <video controls preload="metadata" poster="github-m.png" loop >
+            <!-- Poster é a capa -->
+            <source src="Meu-Video-1.m4v" type="video/mp4">
+            <source src="Meu-Video-1.mkv" type="video/mkv">
+            <p>Seu navegador não e compativel com video</p>    
+        </video>
+
+        <h1>
+            Inserindo video do youtube
+        </h1>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DIraePpIAog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </body>
+</html>

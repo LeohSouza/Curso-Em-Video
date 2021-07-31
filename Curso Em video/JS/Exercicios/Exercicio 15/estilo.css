@@ -1,0 +1,35 @@
+body{
+    background: rgb(15, 128, 128);
+    font:normal 15pt arial;
+    color:white;
+    text-align: center;
+}
+
+section{
+    width: 350px;
+    height: auto;
+    background: rgb(125, 137, 148);
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+    margin: auto;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 15px;
+    font-style:italic;
+    
+}
+
+button{
+    height:8px;
+    width: auto;
+    border-radius: 2px;
+    background: rgb(125, 137, 148);
+    color: white;
+
+}
+
+div#res{
+    font: normal 10pt arial;
+}

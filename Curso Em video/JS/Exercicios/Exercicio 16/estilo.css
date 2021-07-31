@@ -1,0 +1,27 @@
+body{
+    background: greenyellow;
+    font:normal 15pt arial;
+    color: white;
+    text-align: center;
+}
+
+section{
+    height: auto;
+    width: 500px;
+    background:rgb(9, 129, 59);
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+div#res
+{
+    font: normal 10pt arial;
+}
+
+footer{
+    font: normal 10pt arial;
+    font-style: italic;
+}
+
