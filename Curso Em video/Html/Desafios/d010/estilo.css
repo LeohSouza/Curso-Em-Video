@@ -57,6 +57,24 @@ nav{
 }
 main{
     background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px #0000008e;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequeno
+{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 main h1
