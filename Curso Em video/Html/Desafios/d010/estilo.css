@@ -95,25 +95,57 @@ main{
     border-bottom-right-radius:10px;
 }
 
+main p{
+    margin: 15px 0px 15px 0px;
+    text-align: justify; 
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1.0em;  
+}
+
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color:var(--cor3)
+}
+
 main img{
     width: 100%;
 }
 
 main img.pequeno
 {
-    width: 50%;
     display: block;
     margin: auto;
+    max-width: 350px;
 }
 
 main h1
 {
     color: var(--cor5);
     font-family: var(--font-titulos);
+    font-size: 1.5em;
 }
 
 main h2{
     font-family: var(--font-titulos);
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right,var(--cor1),transparent);
+    text-indent: 8px;
 }
 
 footer{
