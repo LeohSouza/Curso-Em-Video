@@ -39,6 +39,10 @@ body{
     font-family: var(--font-padrao);
 }
 
+body a.externo::after{
+    content: '\00A0\1F517';
+}
+
 header{
     background-image:linear-gradient(to bottom,var(--cor3),var(--cor5));
     min-height:150px;
@@ -148,7 +152,42 @@ main h2{
     text-indent: 8px;
 }
 
+main aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside ul{
+    list-style-position: inside;
+    list-style-type: '\2714\00A0';
+    columns: 2;
+
+}
+
+aside h3{
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0 -10px;
+    border-radius: 10px 10px 0 0;
+}
+
 footer{
     background-color: var(--cor5);
     color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover{
+    color: var(--cor1);
+    text-decoration: underline;
 }
